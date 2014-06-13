@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["prabud@spritle.com"]
   spec.description   = %q{A Rails view images via http://lorempixel.com}
   spec.summary       = %q{A Rails view helper place an images via http://lorempixel.com}
-  spec.homepage      = "https://github.com/spritlesoftware/lorempixel"
+  spec.homepage      = "https://github.com/spritlesoftware/lorempixel_helper"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
