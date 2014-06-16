@@ -38,7 +38,7 @@ module LorempixelHelper
 
 		      image_tag = "<img src='#{src}' alt='#{config[:alt]}' height='#{config[:height]}' width='#{config[:width]}'"
 		      image_tag += " title='#{config[:title]}'"
-		      image_tag += " />"
+		      image_tag += " class='lorempixel' />"
 		      return image_tag.html_safe if defined?(Rails)
 		      image_tag
 		end
