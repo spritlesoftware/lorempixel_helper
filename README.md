@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
 to get a random picture of 400 x 400 pixels
-		
+
 	<%= lorempixel_image_tag "400" %>
 
 to get a random picture of 400 x 200 pixels
@@ -30,7 +30,7 @@ to get a random gray picture of 400 x 400 pixels
 
 	<%= lorempixel_image_tag "400" , :type => "g"%>
 
-to get a random picture of the any category given below: 
+to get a random picture of the any category given below:
 
 [abstract , animals, business, cats, city, food, nightlife, fashion, people, nature, sports, technics, transport ]
 
@@ -45,8 +45,14 @@ to get picture no. 1/10 from the sports category
 	<%= lorempixel_image_tag "400", :category => "sports", :text => "Dummy-Text" %>
 
 ...with a custom text on the selected Picture
-    
+
     <%= lorempixel_image_tag "400x200", :category => "sports", :item => 1, :text => "Dummy-Text" %>
+
+...with a custom style
+
+    by default It renders :class => 'lorempixel'. If you wants to override use the following
+
+    <%= lorempixel_image_tag("400x200", :class => "test") %>
 
 Alternatively, calling lorempixel will work as well:
 
